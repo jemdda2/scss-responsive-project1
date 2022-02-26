@@ -68,22 +68,22 @@
 		}
 	}
 
-	&__menu {
-		position: absolute;
-		width: calc(100% - 3rem);
-		left: 50%;
-		transform: translateX(-50%);
-		background: $white;
-		margin-top: 1.5rem;
-		padding: 1.625rem;
-		border-radius: 5px;
+  &__menu {
+    position: absolute;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
+    background: $white;
+    margin-top: 1.5rem;
+    padding: 1.625rem;
+    border-radius: 5px;
 
-		a {
-			display: block;
-			padding: 0.625rem;
-			color: $darkBlue;
-			text-align: center;
-		}
+    a {
+      display: block;
+      padding: 0.625rem;
+      color: $darkBlue;
+      text-align: center;
+    }
 	}
 
 	&__links {
@@ -118,17 +118,6 @@
 					opacity: 1;
 				}
 			}
-		}
-
-	}
-
-	&__cta {
-		font-size: $font-sm;
-		color: $white;
-		transition: opacity 300ms ease-in-out;
-
-		&:hover {
-			opacity: 0.75;
 		}
 	}
 }
